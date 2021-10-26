@@ -1,10 +1,11 @@
-
+import "./../styles/pages/Home.css";
 
 
 const Home = () => {
     return(
-        <div>
-            <h1>All fineee!</h1>
+        <div className="home">
+            <h1>Welcome!</h1>
+            <p>Home Page</p>
         </div>
     )
 };

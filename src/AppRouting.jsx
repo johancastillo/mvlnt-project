@@ -3,11 +3,12 @@ import Form from "./pages/Form";
 // Pages
 import Home from "./pages/Home";
 import PageNotFound from "./pages/PageNotFound";
+import Navigation from "./widgets/Navigation";
 
 const AppRouting = () => {
   return (
     <Router>
-
+      <Navigation />
 
       <Switch>
         <Route path="/" component={Home} />
